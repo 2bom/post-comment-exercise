@@ -9,6 +9,7 @@ class PostsController < ApplicationController
   end
 
   def index
+    @posts = Post.all
   end
 
   def _form
