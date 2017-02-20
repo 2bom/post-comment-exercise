@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'comments/_form'
+
+  get 'comments/_comment'
+
   get 'posts/new'
 
   get 'posts/show'
